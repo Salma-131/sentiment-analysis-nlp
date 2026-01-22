@@ -1,0 +1,23 @@
+# Data manipulation
+numpy
+pandas
+
+# Machine learning
+scikit-learn
+
+# NLP preprocessing
+nltk
+textblob
+tqdm
+
+# Deep learning
+torch
+transformers
+
+# Web app
+streamlit
+
+# Visualization (optional for plots/wordclouds)
+matplotlib
+seaborn
+wordcloud
