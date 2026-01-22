@@ -16,6 +16,27 @@ With the explosion of online reviews and user-generated content, analyzing opini
 
 ---
 
+
+**Project Structure**
+- `app/` 
+  - `streamlit_app.py`
+- `dataset/` 
+  - `amazon_review.csv`
+- `models/`  — Trained models and tokenizer files
+  - ` count_vectorizer.pkl/`
+  - `  log_model_count.pkl/`
+  - ` special_tokens_map.json/`
+  - ` tokenizer.json/`
+  - `  tokenizer_config.json/`
+  - `  training_args.bin/`
+  - `  vocab.txt/`
+- `notebooks/`
+ - ` text_classification_sentiment_analysis_with_nlp.ipynb /`
+- `config.json `
+- `requirements.txt`
+- `README.md`
+
+
 ## **Usage**
 
 Run the Streamlit App
@@ -51,6 +72,7 @@ The BERT model captures semantic context and outperforms classical approaches.
 =======
 # sentiment-analysis-nlp
 NLP project for sentiment analysis on Amazon Review dataset
+
 
 
 
