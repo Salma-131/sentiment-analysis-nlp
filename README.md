@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Sentiment Analysis NLP
 
 This project implements a **Sentiment Analysis** solution using NLP techniques on the **Amazon Review dataset**. It includes both classical machine learning models (Logistic Regression with Count Vectorizer) and a **BERT-based deep learning model** for sentiment classification.
@@ -16,37 +16,8 @@ With the explosion of online reviews and user-generated content, analyzing opini
 
 ---
 
-## **Repository Structure**
+## **Usage**
 
-
-sentiment-analysis-nlp/
-│
-├── app/ # Streamlit application
-│ └── streamlit_app.py
-│
-├── dataset/ # Raw dataset
-│ └── amazon_review.csv
-│
-├── models/ # Trained models and tokenizer files
-│ ├── count_vectorizer.pkl
-│ ├── log_model_count.pkl
-│ ├── model.safetensors
-│ ├── special_tokens_map.json
-│ ├── tokenizer.json
-│ ├── tokenizer_config.json
-│ ├── training_args.bin
-│ └── vocab.txt
-│
-├── notebook/ # Jupyter notebook
-│ └── text_classification_sentiment_analysis_with_nlp.ipynb
-│
-├── config.json # Configuration file
-├── requirements.txt # Python dependencies
-└──README.md # Project description
-
-
-
-Usage
 Run the Streamlit App
 streamlit run app/streamlit_app.py
 
@@ -80,5 +51,6 @@ The BERT model captures semantic context and outperforms classical approaches.
 =======
 # sentiment-analysis-nlp
 NLP project for sentiment analysis on Amazon Review dataset
+
 
 
