@@ -18,6 +18,7 @@ With the explosion of online reviews and user-generated content, analyzing opini
 
 ## **Repository Structure**
 
+
 sentiment-analysis-nlp/
 │
 ├── app/ # Streamlit application
@@ -79,4 +80,5 @@ The BERT model captures semantic context and outperforms classical approaches.
 =======
 # sentiment-analysis-nlp
 NLP project for sentiment analysis on Amazon Review dataset
->>>>>>> fa76eefc16a660e70534c7fe4164ce66f348d432
+
+
